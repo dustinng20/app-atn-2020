@@ -12,12 +12,10 @@
     $password = "f5e6dc32b892e2c948a998f38a1a6d8feb061aa441cef26fadf0a0ca8ce22205";
     $dbname = "db1f6hgmq9ijf8";
 
-    // Create connection
-    $conn = new mysqli($servername, $username, $password);
 
     // Check connection
     try {
-        $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username);
+        $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
         // set the PDO error mode to exception
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         insertToDB($conn);
