@@ -7,10 +7,10 @@
     $city = $_POST['city'];
     $message = $_POST['message'];
 
-    $servername = "localhost";
-    $username = "root";
-    $password = "123";
-    $dbname = "shopping";
+    $servername = "ec2-18-233-32-61.compute-1.amazonaws.com";
+    $username = "bxpodyavxegeqz";
+    $password = "f5e6dc32b892e2c948a998f38a1a6d8feb061aa441cef26fadf0a0ca8ce22205";
+    $dbname = "db1f6hgmq9ijf8";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password);
