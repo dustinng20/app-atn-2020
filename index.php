@@ -366,7 +366,7 @@
 		<!-- slider-->
 		<div class="slider-area slider-one clearfix">
 			<div class="slider" id="mainslider">
-				<div data-src="img/slider/picture1.jpg">
+				<div data-src="img/slider/toy_pic1.jpg">
 					<div class="d-table">
 						<div class="d-tablecell">
 							<div class="container">

@@ -7,10 +7,10 @@
     $city = $_POST['city'];
     $message = $_POST['message'];
 
-    $servername = "ec2-18-233-32-61.compute-1.amazonaws.com";
-    $username = "bxpodyavxegeqz";
-    $password = "f5e6dc32b892e2c948a998f38a1a6d8feb061aa441cef26fadf0a0ca8ce22205";
-    $dbname = "db1f6hgmq9ijf8";
+    $servername = "ec2-3-215-83-17.compute-1.amazonaws.com";
+    $username = "rcfujmvnvlzxon";
+    $password = "53b7389205abb917739e964104e911099ed69873c88f5358737313f9f4759e28";
+    $dbname = "d744dj1t5nm5g7";
 
 
     // Check connection
